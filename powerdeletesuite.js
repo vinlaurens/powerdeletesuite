@@ -909,7 +909,7 @@ var pd = {
           pd.task.after = pd.task.items[0].data.name;
           pd.actions.children.handleSingle();
         }
-      }, 10000);
+      }, 7000);
     },
     edit: function (item) {
       setTimeout(() => {
@@ -950,7 +950,7 @@ var pd = {
           pd.task.items[0].pdEdited = true;
           pd.actions.children.handleSingle();
         }
-      }, 10000);
+      }, 7000);
     },
   },
   ui: {
